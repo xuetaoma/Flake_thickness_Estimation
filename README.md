@@ -101,7 +101,7 @@ Recommended approach:
 ## Limitations / Important Notes
 
 1. **Non-unique thickness mapping**
-   - Optical contrast vs thickness on SiO₂/Si is generally **oscillatory** (thin-film interference).
+   - Optical contrast vs thickness on SiO₂/Si is generally **oscillatory** (thin-film interference). This works for BN on 285 nm SiO2 and only for range 10-30 ish nm BN.
    - The same `R_norm` may correspond to **multiple thicknesses**.
    - Best practice: constrain the thickness range, or use **multiple channels** (R/G/B or luminance) to disambiguate.
 
